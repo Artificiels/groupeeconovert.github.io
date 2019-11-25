@@ -1,0 +1,240 @@
+/*---------Entire website - Start --------------------------------------------------------------------------------------------- */
+
+/*-------- Header - Start ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Container 1 (Navbar)- Start ------------------------------------------------------------------------------------------------------*/
+
+.container-fluid {
+  padding: 0;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+
+.navbar-nav {
+  color: black;
+}
+
+.nav-item {
+  color: black;
+}
+
+
+
+
+
+.img-fluid {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/architecture_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+
+
+
+/*-------- Container 1 (Navbar)- End ------------------------------------------------------------------------------------------------------*/
+/*-------- Header - End ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Container 2 (jumbotron) - Start ------------------------------------------------------------------------------------------------------*/
+
+
+
+.carousel-inner {
+  margin: 20% 15% 2% 15%;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+
+}
+
+
+/*-------- Container 2 (jumbotron) - End ------------------------------------------------------------------------------------------------------*/
+
+
+/*-------- Container 3 (Cards) - Start ------------------------------------------------------------------------------------------------------*/
+.container-3 {
+  Margin: 3% 15%;
+  text-align: center;
+}
+
+.titles {
+  padding-bottom: 30px;
+}
+.card-deck {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
+}
+.card-img-top {
+  width: 250px;
+  height: auto;
+  float:none;
+
+}
+.card-title {
+  text-align: center;
+}
+
+
+/*-.card-header {
+  background: linear-gradient(to right, #4ec7fa 0%, #2259b3 100%);
+}
+-*/
+
+.card-deck-2 {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+/*-------- Container 3 (Cards) - End ------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------- Index Body - End ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Services Body - Start ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Air Climatisé ----------*/
+.jumbotron_1 {
+  background: none;
+  text-align: center;
+  font-family: "Montserrat-Light"sans-serif;
+}
+
+.display-4_1 {
+  margin: 10% 15% 2% 15%;
+  font-weight: bold;
+  font-size: 1.9rem;
+  color: #ffffff;
+}
+
+.lead_1 {
+  margin: 3% 15%;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+
+.jumbotron-button_1 {
+  margin: 5% 3% 5% 0;
+  font-weight: bold;
+}
+
+.btn_1{
+  margin-top: auto;
+/*-------- Chauffage ----------*/
+/*-------- Thermopompe ----------*/
+/*-------- Conduits d'air ----------*/
+/*-------- Systèmes centrales ----------*/
+/*-------- Qualité de l'air intérieur ----------*/
+
+/*-------- Services Body - End ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Systèmes Body - Start ------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------- Systèmes Body - End ------------------------------------------------------------------------------------------------------*/
+/*-------- Zone de service - Start ------------------------------------------------------------------------------------------------------*/
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*-------- Zone de service - End ------------------------------------------------------------------------------------------------------*/
+
+/*-------- Nous Joindre - Start ------------------------------------------------------------------------------------------------------*/
+
+
+.contact-form{
+    background: none;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 1.5%;
+    background: #5ab060;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+/*-------- Nous Joindre - End ------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------- Footer - Start ------------------------------------------------------------------------------------------------------*/
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+  background-color: #BA317B;
+}
+
+/*-------- Footer - End ------------------------------------------------------------------------------------------------------*/
+/*---------Entire website - End --------------------------------------------------------------------------------------------- */

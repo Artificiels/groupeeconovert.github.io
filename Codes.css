@@ -1,0 +1,15 @@
+.display-4 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #343a40;
+}
+
+
+.lead {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #343a40;
+}
+
+
+/*background: linear-gradient(to right, #3b9ed7 0%, #83ae40 100%);*/
